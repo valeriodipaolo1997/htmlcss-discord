@@ -70,6 +70,13 @@ h2 {
   
 }
 
+
+h3{
+  font-size: 1.7rem;
+  margin-top: -1.4rem;
+  margin-bottom: 2rem;
+}
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -180,20 +187,30 @@ p{
 
 .btn {
   padding: 0.8rem 1.3rem;
-  font-size: 0.75rem;
+  font-size: 1rem;
   border-radius: 1.3rem;
   border: none;
+  text-decoration: none;
 }
 
-.primary {
+.first {
   background-color: white;
   color: black;
   margin-right: 1rem;
+  
+  
 }
 
-.secondary {
+.second {
   background-color: black;
   color: white;
+}
+
+
+.third {
+  background-color: #8ea1e1;
+  color: white;
+  ;
 }
 
 .item {
@@ -202,12 +219,17 @@ p{
   
 }
 
+.h-50 {
+  text-align: center;
+}
+
 /* #endregion Main */
 
 
 /* #region Footer */
 footer {
-  background-color: darkblue;
+  background-color: black;
+  color: white;
 }
 footer > .top, footer > .bottom {
   padding: 1rem 0;
