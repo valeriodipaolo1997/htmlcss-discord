@@ -63,6 +63,12 @@ h1 {
   padding: 2rem;
 }
 
+h2 {
+  font-size: 2.5rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  
+}
 
 .justify-content-between {
   justify-content: space-between;
@@ -74,6 +80,7 @@ h1 {
   max-width: 1170px;
   width: 80%;
   margin: auto;
+  
 }
 .row {
   display: flex;
@@ -91,9 +98,11 @@ h1 {
 .col-4
 {
   width: calc(100% / 12 * 4);
+  padding-top: 5.5rem;
 }
 .col-8 {
   width: calc(100% / 12 * 8);
+  
 }
 
 
@@ -110,11 +119,13 @@ h1 {
 
 /* #endregion Utility */
 
+body {
+  font-family: 'gg sans' ,sans-serif;
+}
+
 /* #region Header */
 
-header {
-  background-color: blue;
-}  
+
 
 .logo, .login {
   width: 20%;
@@ -147,6 +158,15 @@ header {
 
 /* #region Main */
 
+
+.jumbo {
+  background-image: url(../assets/img/jumbo.png);
+  background-size: 1350px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+
 .jumbotron {
   
   height: 450px; /* we might need to keep this */
@@ -154,16 +174,21 @@ header {
   color: white;
 }
 
+p{
+  padding-bottom: 1rem;
+}
+
 .btn {
-  padding: 0.40rem 1rem;
+  padding: 0.8rem 1.3rem;
   font-size: 0.75rem;
-  border-radius: 1rem;
+  border-radius: 1.3rem;
   border: none;
 }
 
 .primary {
   background-color: white;
   color: black;
+  margin-right: 1rem;
 }
 
 .secondary {
@@ -171,6 +196,11 @@ header {
   color: white;
 }
 
+.item {
+  width: 600px;
+  height: 600px;
+  
+}
 
 /* #endregion Main */
 
